@@ -29,7 +29,7 @@ class Endpoint(Resource):
         if request.files:
             img = request.files['image']
             save_image(img)
-            response = greedy_search("./image/test.jpg")
+            response = greedy_search("./image/temp.jpg")
             return response, 200
         else:
             return {"message": "Error - wrong file posted"}, 400

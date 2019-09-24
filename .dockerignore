@@ -1,0 +1,5 @@
+.git
+.gitignore
+image/temp.png
+__pycache__/
+.vscode/

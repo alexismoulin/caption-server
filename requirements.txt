@@ -1,0 +1,4 @@
+Flask
+Flask-RESTful
+tensorflow==1.14
+numpy
