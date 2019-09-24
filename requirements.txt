@@ -1,4 +1,5 @@
 Flask
 Flask-RESTful
+Pillow
 tensorflow==1.14
 numpy
